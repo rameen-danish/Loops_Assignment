@@ -1,0 +1,16 @@
+{
+  "name": "rda_loops_assignment",
+  "version": "1.0.0",
+  "description": "This is a Loop Assignment ",
+  "main": "Arrays_with_loop.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": ".js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
