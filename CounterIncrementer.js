@@ -18,4 +18,5 @@ do { //do-while loop
     console.log(counter); //print counter value
     counter += step; //counter is increment by 10 (step value)
 } while (counter <= 100); //counter limit is 100 
+
 console.log("Counter Stops");
