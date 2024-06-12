@@ -11,10 +11,11 @@ the value by which the counter will be incremented.
 the step amount each iteration.
 4. Continue to loop until the counter is equal to or more than 100: The loop should run
 as long as the counter is less than 100.*/
-var counter = 0;
-var step = 10;
-do {
-    console.log(counter);
-    counter += step;
-} while (counter <= 100);
+console.log("\n \t \t ***Counter Incrementer*** ");
+var counter = 0; //set the counter value to 0
+var step = 10; //set the step value to 10
+do { //do-while loop
+    console.log(counter); //print counter value
+    counter += step; //counter is increment by 10 (step value)
+} while (counter <= 100); //counter limit is 100 
 console.log("Counter Stops");

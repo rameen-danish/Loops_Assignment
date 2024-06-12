@@ -13,11 +13,11 @@ o Iterate through the properties of myObject using a for...in loop.
 o Inside the loop, print each property's name and its corresponding value to the
 console.*/
 console.log("\n \t \t ***Exploring Objects with for...in Loop*** \n");
-var myObject = {
+var myobject = {
     item1: "Laptop",
     item2: "Mobile",
     item3: "HeadPhones"
 };
-for (var x in myObject) {
-    console.log("".concat(x, " :"), myObject[x]);
+for (var x in myobject) {
+    console.log("".concat(x, " :"), myobject[x]);
 }

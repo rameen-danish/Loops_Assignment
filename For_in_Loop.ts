@@ -15,7 +15,7 @@ o Inside the loop, print each property's name and its corresponding value to the
 console.*/
 
 console.log("\n \t \t ***Exploring Objects with for...in Loop*** \n");
-let myobject = {
+let myobject : any = {
     item1:"Laptop",
     item2:"Mobile",
     item3:"HeadPhones"
